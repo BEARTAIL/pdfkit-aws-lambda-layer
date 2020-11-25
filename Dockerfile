@@ -10,6 +10,6 @@ ADD package-lock.json $ROOT_DIR
 WORKDIR $ROOT_DIR
 
 RUN npm install -g npm@v7 && \
-  npm install --no-bin-links
+  npm install --no-bin-links --production
 
 CMD ["node",  "--version"]
