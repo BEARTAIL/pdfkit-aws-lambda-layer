@@ -12,3 +12,6 @@ layers:
     description: ${file(config/description.js)}
     licenseInfo: MIT
     retain: true
+    compatibleRuntimes:
+      - nodejs10.x
+      - nodejs12.x
