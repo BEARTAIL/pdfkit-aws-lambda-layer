@@ -1,5 +1,7 @@
 service: pdfkit-service
 
+variablesResolutionMode: 20210326
+
 provider:
   name: aws
   region: ${opt:region, 'ap-northeast-1'}
