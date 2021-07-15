@@ -9,7 +9,7 @@ module.exports = () => {
 
   const pdfkitEntry = json.packages['node_modules/pdfkit'];
 
-  if (!pdfkitEntry?.version) {
+  if (!pdfkitEntry.version) {
     throw new Error('Failed to get pdfkit version');
   }
 
