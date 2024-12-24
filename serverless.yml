@@ -15,5 +15,5 @@ layers:
     licenseInfo: MIT
     retain: true
     compatibleRuntimes:
-      - nodejs10.x
-      - nodejs12.x
+      - nodejs14.x
+      - nodejs20.x
