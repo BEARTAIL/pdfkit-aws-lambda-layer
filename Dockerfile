@@ -1,4 +1,4 @@
-FROM lambci/lambda:build-nodejs12.x
+FROM amazon/aws-lambda-nodejs:22
 
 ENV ROOT_DIR /usr/local/pdfkit
 
